@@ -1,0 +1,87 @@
+.nav{
+    background-color: rgb(148, 22, 22);
+    font-size: small;
+    color: white;
+
+    padding-left: 10px;
+    margin: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left
+
+}
+
+ a#logout{
+    color:white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    padding: 15px;
+    position: absolute;
+    right: 50px;
+     
+ }
+
+ a#dashboard{
+    color:white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    padding: 15px;
+    position: absolute;
+    right: 150px;
+  }
+
+
+
+.user-info{
+    padding-left: 100px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+    border: rgb(148, 22, 22) 6px solid;
+    box-shadow: 10px 10px 6px gray
+
+}
+
+#user{
+    border:rgb(148, 22, 22) 6px solid;
+    margin-left: 300px;
+    padding: 50px;
+    text-align:center;
+    font-size: 30pt;
+    box-shadow: 10px 10px 6px gray
+}
+
+.reimbursement-table{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center
+}
+
+
+table{
+    width: 100%;
+    border:rgb(148, 22, 22) 6px solid;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 6px gray
+}
+
+th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 15px;
+    text-align: left;
+  }

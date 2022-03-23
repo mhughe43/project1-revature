@@ -1,0 +1,86 @@
+.container{
+    background-color: lightblue;
+    border-radius: 10px;
+    
+    
+}
+
+#screen{
+    background-color: white;
+    height: 30px ;
+    width: 250px ;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.button{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0px 3px 3px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#screen-container{
+        display: flex;
+        justify-content: space-evenly; /* center on page*/
+        flex-wrap: wrap; /* center on page*/
+    
+}
+
+#first-row{
+    display: flex;
+    margin: 5px;
+    justify-content:center; 
+    flex-wrap: wrap; 
+
+}
+
+#second-row{
+    display: flex;
+    margin: 5px;
+    justify-content:center; /* center on page*/
+    flex-wrap: wrap; /* center on page*/
+
+}
+
+#third-row{
+    display: flex;
+    margin: 5px;
+    justify-content:center; /* center on page*/
+    flex-wrap: wrap; /* center on page*/
+
+}
+
+#forth-row{
+    display: flex;
+    margin: 5px;
+    justify-content:center; /* center on page*/
+    flex-wrap: wrap; /* center on page*/
+
+}
+
+#plus{
+    background-color: rgb(236, 236, 128);
+}
+#minus{
+    background-color: rgb(236, 236, 128);
+}
+#mult{
+    background-color: rgb(236, 236, 128);
+}
+#C{
+    background-color: lightcoral;
+}
+#eq{
+    
+}
+#div{
+    background-color: rgb(236, 236, 128);
+}
+

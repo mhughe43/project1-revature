@@ -1,0 +1,66 @@
+
+
+.nav{
+    background-color: purple;
+    font-size: small;
+    color: white;
+
+    padding-left: 10px;
+    margin: none;
+    display: flex;
+    justify-content:left; 
+    flex-wrap: wrap;
+
+}
+
+
+.form-container{
+    display: flex;
+    justify-content:center; 
+    flex-wrap: wrap;
+    
+    
+}
+
+#form{
+    background-color: purple;
+    border-radius: 10px;
+    height: 150px;
+    width: 400px;
+    padding: 50px;
+    padding-bottom: 150px;
+    margin: 100px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    box-shadow: 10px 10px 6px gray
+    
+}
+
+
+
+#username{
+    text-align: center;
+    font-size: medium;
+    margin-bottom:10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black
+}
+
+
+#password{
+    text-align: center;
+    font-size: medium;
+    font-family:sans-serif;
+    margin-bottom:10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black
+
+}
+
+#button{
+    border-radius: 6px;
+    padding: 5px;
+    font-size: medium;
+    box-shadow: 2px 2px 6px black
+}

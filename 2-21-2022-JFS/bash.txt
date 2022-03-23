@@ -1,0 +1,10 @@
+Common bash commands--
+	-pwd: print the current directory
+	-cd: change directory -or- go back to parent directory
+	-cd..: go back to last directory
+	-ls: list, show the contents within a directory
+	-mkdir: make a directory
+	-touch: make file
+	-cat file-name: display contexts in a file
+	-mv file-name ../ : move into another file
+	-mv file-name new-file-name: to change file names

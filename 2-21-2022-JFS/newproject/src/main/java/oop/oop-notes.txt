@@ -1,0 +1,28 @@
+Java is an OOP language
+What is oop? (object oriented programming)
+    a programming ideology in which we reference "objects" to reference real world objects
+
+4 pillars of oop?
+    -inheritance
+        -can take state and behavior from another class, called the parent class.(example: DNA, passed down from parent
+         to child)
+            -how do we achieve this in java?
+                *We use the extends keyword on a class. (note: we can only extend one class. child extends to parent)
+
+    -abstraction
+        -the idea of hiding how something is done. (example: not knowing how a car works but knowing that if you
+         push the gas pedal, it'll go)
+         -where do we see abstraction in java?
+            *in interfaces and abstract classes
+    -encapsulation
+        -restriction of direct access. (example: vending machines - you're not grabbing the Snickers bar,
+         the machine does it for you.)
+         -where do you see this in java?
+            *with the use of access modifiers
+                -public, private, default, protected
+    -polymorphism
+        -the idea of taking on many forms (example: water - takes on the form of any container it's in, can act
+         differently depending on the temp and shape)
+        -where do you see this in java?
+            - overriding: method with the same method signature as a method in the same class
+            - overloading: method with the same name in the same class but with different parameters (constructors)

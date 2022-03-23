@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Finance Manager Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Reimbursement Navigator</h1>
+        <a href="http://127.0.0.1:5501/loginPage/index.html" id="logout">Logout</a>
+        <input type="text" id="employee-search"
+        placeholder="Find an Employee...">
+        <button id ="logout-btn" type="submit">👥</button>
+    </div>
+    <div>
+        <h1 id="greeting">Hello, Finance Manager!</h1>
+    </div>
+    <div class="reimbursement-table">
+        <h1 id="rem">Reimbursements</h1>
+        <table>
+            
+            <tr>
+                <th>Employee ID</th>
+                <th>Time Submitted</th>
+                <th>Time Resolved</th>
+                <th>Amount</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Resolved By</th>
+                <th>Update Status</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3/13/2022</td>
+                <td>-</td>
+                <td>$1,252.35</td>
+                <td>The Conner's meeting in Estes Park</td>
+                <td>Travel</td>
+                <td>Pending</td>
+                <td>-</td>
+                <td class="status-btn">
+                    <button id="approved">Approved</button><br>
+                    <button id="denied">Denied</button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3/10/2022</td>
+                <td>-</td>
+                <td>$50.60</td>
+                <td>Field Meetings</td>
+                <td>Travel</td>
+                <td>Pending</td>
+                <td>-</td>
+                <td class="status-btn">
+                    <button id="approved">Approved</button><br>
+                    <button id="denied">Denied</button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3/1/2022</td>
+                <td>3/9/2022</td>
+                <td>260.87</td>
+                <td>Office Lunch</td>
+                <td>Food</td>
+                <td>Approved</td>
+                <td>cflan124</td>
+                <td class="status-btn">
+                    <button id="approved">Approved</button><br>
+                    <button id="denied">Denied</button>
+                </td>
+            </tr>
+
+    </div>
+    
+</body>
+</html>

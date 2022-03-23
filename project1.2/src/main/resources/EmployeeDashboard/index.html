@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Reimbursement Navigator</h1>
+        <a href="http://127.0.0.1:5501/loginPage/index.html" id="logout">Logout</a>
+    </div>
+
+    <div class="greeting">
+        <h1>Hi, employee!</h1>
+    </div>
+    <div class="new-request-container">
+        <form id="new-request-form">
+            <label>First Name:</label><input type="text" >
+            <label>Last Name:</label> <input type="text"><br>
+            <label>Date:<label> <input type="date"> 
+            <label>Amount:<label> <input type="text">
+            <label>Description:<label><input type="text">    
+            <button id="request">Create New Request</button>
+        </form>
+    </div>
+    <div class="reimbursement-table">
+        <table>
+            
+            <tr>
+                <th>Employee ID</th>
+                <th>Time Submitted</th>
+                <th>Time Resolved</th>
+                <th>Amount</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Resolved By</th>
+                <th id="delete">Delete</th>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3/13/2022</td>
+                <td>-</td>
+                <td>$1,252.35</td>
+                <td>The Conner's meeting in Estes Park</td>
+                <td>Travel</td>
+                <td>Pending</td>
+                <td>-</td>
+                <td><button class="delete-button">✖</button> </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3/10/2022</td>
+                <td>-</td>
+                <td>$50.60</td>
+                <td>Field Meetings</td>
+                <td>Travel</td>
+                <td>Pending</td>
+                <td>-</td>
+                <td>
+                   <button>✖</button> 
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3/1/2022</td>
+                <td>3/9/2022</td>
+                <td>260.87</td>
+                <td>Office Lunch</td>
+                <td>Food</td>
+                <td>Approved</td>
+                <td>cflan124</td>
+                <td><button>✖</button> </td>
+            </tr>
+        </table>
+
+    </div>
+    
+
+</body>
+</html>

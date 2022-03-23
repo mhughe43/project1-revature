@@ -1,0 +1,57 @@
+
+
+
+
+.square{
+    color: darkblue; /* changes the color of the text */
+    background-color:rgb(113, 156, 204); /* changes background color of an element */
+    width: 50px; /* declairing height */
+    height: 50px; /* declaring width */
+    border-radius: 6px; /* changes the corners */
+    box-shadow: 10px 10px 4px ; /*adds a shadow to the box. 1st position moves it to the right, 2nd moves it down, 3rd is how thick the color is*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    text-align: center;
+
+    /* box model properties */
+    padding: 50px; /* space between the words and the border */
+    margin: 50px; /* space between the border and the edge of the webpage */
+    border: 6px solid black;
+}
+
+
+/* designing buttons
+# - grabs ids
+. - grabs classes
+*/
+
+#this-button{
+    color: darkblue;
+    background-color:rgb(113, 156, 204);
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+
+    /* how to position something anywhere on the page */
+    position:fixed;
+    bottom: 5px;
+    right: 20px;
+
+}
+
+.container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly; /* center on page*/
+    flex-wrap: wrap; /* center on page*/
+}
+
+.login-form{
+    background-color: rgb(113, 156, 204);
+    width: 200px;
+    height: 100px;
+}
+
