@@ -7,13 +7,15 @@ import services.UserService;
 
 public class UserController {
     private UserService userService;
-    private User user;
+
 
     public UserController(){
+
         this.userService = new UserService();
     }
 
     public UserController(UserService userService){
+
         this.userService = userService;
     }
 
@@ -23,6 +25,8 @@ public class UserController {
         User credentials = context.bodyAsClass(User.class);
 
         User userFromDb = userService.validateCredentials(credentials.getUsername(), credentials.getPassword());
+
+        //context.sessionAttribute("user", userFromDb);//session
 
         if(userFromDb == null){
             jsonResponse = new JsonResponse(false, "invalid username or password", null);

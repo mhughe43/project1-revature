@@ -2,17 +2,19 @@ import controllers.ReimbursementController;
 import controllers.UserController;
 import io.javalin.Javalin;
 import io.javalin.http.staticfiles.Location;
+import models.JsonResponse;
 
 
 public class MainDriver {
     public static void main(String[] args) {
 
         Javalin app = Javalin.create(config ->{
-            config.addStaticFiles("/login", Location.CLASSPATH);
+            config.addStaticFiles("/", Location.CLASSPATH);
         }).start(9000);
 
         UserController userController = new UserController();
         ReimbursementController reimbursementController = new ReimbursementController();
+
 
         app.post("/login", userController::login);
 

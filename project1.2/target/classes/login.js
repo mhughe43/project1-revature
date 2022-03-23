@@ -1,4 +1,4 @@
-document.getElementById("form").addEventListener("submit", async function login(event){
+document.getElementById("form").addEventListener("submit", async function(event){
     event.preventDefault();
 
 let usernameInputElem = document.getElementById("username");
@@ -9,8 +9,7 @@ let user = {
     password: passwordInputElem.value
 }
 
-
-let response = await fetch("http://localhost:9000", {
+let response = await fetch("http://localhost:9000/login", {
     method: "POST",
     body: JSON.stringify(user)
 })
